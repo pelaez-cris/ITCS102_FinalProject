@@ -6,4 +6,4 @@ def factorial(number):
 
     return fact
 
-print(f"THe factorial of 13 is {factorial(13)}")
+print(f"the factorial of 13 is {factorial(13)}")

@@ -1,6 +1,3 @@
-
-
-
 def pang_hi():
     print("HI IT1C")
 

@@ -1,30 +1,15 @@
-isDLL= input('Are you a current student of DLL (yes/no):  ')
+name = input("Enter your name: ")
+isStudent = input("are your current student of DLL? (yes or No) -->")
 
-if isDLL.lower() == 'yes':
-	print('Welcome to the DLL BSIT Scholarship form')
-	isCotta= input('Are you from Barangay Cotta (yes/ no):  ')
-
-	if isCotta.lower() == 'yes':
-		print('Please fillup the second form')
-		isLevel=input('What is your current level right now in DLL\nF - Freshmen\nS - Sophomore\nJ - Junior\nR - Senior\nPlease input your answer')
-		if isLevel.lower() == 'f':
-			print('Hi Freshmen')
-		elif isLevel.lower() == 's':
-			print('Hi Sophomore')
-		elif isLevel.lower() == 'j':
-			print('Hi Junior')
-		elif isLevel.lower() == 'r':
-			print('Hi Senior')
-		else:
-			print('Invalid choice')
-		isNeeded = input('Do you need this scholarship (yes/no):  ')
-	
-		if isNeeded.lower() == 'yes':
-			print('Scholarship Granted')
-		else:
-			print('Thanks for stopping by')
-	else:
-		print('Sorry, this Scholarship grant are only for resident of Cotta')
-
-else:
-	print('Thanks for stopping by')
+if isStudent.lower() == "yes":
+    yearlevel = input("\n f - Freshman \n s - sophomore \n j - Junior \n r - Senior \n what is your current level right now in DLL? ")
+    if yearlevel.lower() == "f":
+        print(f"Hi {name} you are Freshman")
+    elif yearlevel.lower() == "s":
+        print(f"Hi {name} you are Sophomore ")
+    elif yearlevel.lower() == "j":
+        print(f"Hi {name} you are Junior")
+    elif yearlevel.lower() == "r":
+        print(f"Hi {name} you are Senior")
+    else:
+        print("Invalid choice")

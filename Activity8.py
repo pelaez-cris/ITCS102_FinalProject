@@ -1,10 +1,10 @@
 password = input('Enter your password---> ')
 
-if password.lower() == "lester" :
+if password.lower() == "password" :
 	print('Access Granted!!!!')
 	print('Enjoy using the system')
 
-elif password.lower() =='casipit':
+elif password.lower() =='secret':
 	print('Access Granted!!!!')
 	print('Enjoy using the system')
 else:

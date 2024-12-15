@@ -1,22 +1,21 @@
 import os
-
-isContinue = True
-no = 0
+isContinue =True
+brrt = 0
 while isContinue == True:
-    ask = input("Would you like to add another triangle (yes / no )--> ")
+    ngi=input("Would you like to add another triangle (yes/no)? ")
 
-    if ask.lower() == "no":
+    if ngi.lower() == "no":
         print("PROGRAM TERMINATED")
         break
-        isContinue = False
     else:
         os.system('cls')
-        no += 1
-        for x in range (1, 6):
-            for r in range (1 , no + 1):
-                for y in range (1 , x + 1):
-                    print("*", end=" ")
-                for z in range (6, x, -1):
-                    print(" ",end=" ")
+        brrt += 1
+        for x in range(1,6):
+            for y in range(brrt+1):
+                for z in range(1,x+1):
+                    print("*", end= " ")
+                for a in range(5,x,-1):
+                    print(" ", end= " ")
+                print( end= " ")
             print()
-        continue
+        continue    
