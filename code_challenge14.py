@@ -1,22 +1,14 @@
-#continue to ask user for a number
-#enter a number
-#enter a number
-#enter a number
-#enter a number
-#loop has terminated
-#the sum of all the numbers given is it
+dang = True
+bilang = 0
 
-tuloy = True
-total = 0
+while dang == True:
+    num = eval(input("Write a number:   "))
 
-while tuloy == True:
-    num = eval(input("\nenter a number: "))
-
-    if num ==0:
-        print("\n\tProgram Terminated")
-        print(f"\nThe total of your numbers are {total}")
+    if num == 0:
+        print("Loop has terminated")
+        print(f"The sum of all numbers given is {bilang}")
         break
-
+           
     else:
-        total += num
+        bilang += num
         continue
