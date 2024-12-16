@@ -198,25 +198,25 @@ def act_19():
 def act_20():
     print("\nThis is my activity 20\n")
     import os
-isContinue =True
-brrt = 0
-while isContinue == True:
-    ngi=input("Would you like to add another triangle (yes/no)? ")
-    if ngi.lower() == "no":
-        print("PROGRAM TERMINATED")
-        break
-    else:
-        os.system('cls')
-        brrt += 1
-        for x in range(1,6):
-            for y in range(brrt+1):
-                for z in range(1,x+1):
-                    print("*", end= " ")
-                for a in range(5,x,-1):
-                    print(" ", end= " ")
-                print( end= " ")
-            print()
-        continue    
+    isContinue =True
+    brrt = 0
+    while isContinue == True:
+        ngi=input("Would you like to add another triangle (yes/no)? ")
+        if ngi.lower() == "no":
+            print("PROGRAM TERMINATED")
+            break
+        else:
+            os.system('cls')
+            brrt += 1
+            for x in range(1,6):
+                for y in range(brrt+1):
+                    for z in range(1,x+1):
+                        print("*", end= " ")
+                    for a in range(5,x,-1):
+                        print(" ", end= " ")
+                    print( end= " ")
+                print()
+            continue    
 
 def act_21():
     print("\nThis is my activity 21\n")
@@ -635,8 +635,9 @@ def cc_16():
     main()
 
 # Menu & Body
-
-def body():
+tuloy = True
+while tuloy == True:
+    def body():
         print(f"\nWelcome to code compilation of Cris Laurence Pelaez")
         print(f"Bachelor Of Science In Infomation Technology - 1C")
         print(f"\nPlease Select an Option:   ")
@@ -644,19 +645,22 @@ def body():
         print(f"2. Open Code Challenge Folder")
         print(f"3. Exit Program")
         menu = input(f"\nChoose what action you want to do:  ")
-        while body:
-            if menu == "1":
-                os.system("cls")
-                act_folder()
-            elif menu == "2":
-                cc_folder()
-                os.system("cls")
-            elif menu == "3":
-                os.system("cls")
-                print(f"\nProgram terminated, Thank you for checking my Program.\n")
-                break
-            else:
-                print("Invalid Choice, Please try again.")         
+        
+        if menu == "1":
+            os.system("cls")
+            def act_folder():
+                print(f"\nWelcome to code compilation of Cris Laurence Pelaez")
+                print(f"Bachelor Of Science In Infomation Technology - 1C")
+            act_folder()
+        elif menu == "2":
+            cc_folder()
+            os.system("cls")
+        elif menu == "3":
+            os.system("cls")
+            print(f"\nProgram terminated, Thank you for checking my Program.\n")
+            break
+        else:
+            print("Invalid Choice, Please try again.")         
 body()
 
 def act_folder():
