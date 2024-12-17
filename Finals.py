@@ -1,10 +1,10 @@
 import os
-
 # Activities
 
-def act_1():
+def act_1(a):
     print("\nThis is my activity 1\n")
     print("Hello World")
+act_1()
 
 def act_2():
     print("\nThis is my activity 2\n")
@@ -634,40 +634,92 @@ def cc_16():
                 print("Invalid option. Please try again.")
     main()
 
-# Menu & Body
-tuloy = True
-while tuloy == True:
-    def body():
+def body():
+    while True:
         print(f"\nWelcome to code compilation of Cris Laurence Pelaez")
         print(f"Bachelor Of Science In Infomation Technology - 1C")
         print(f"\nPlease Select an Option:   ")
         print(f"\n1. Open Activity Folder")  
         print(f"2. Open Code Challenge Folder")
         print(f"3. Exit Program")
+
         menu = input(f"\nChoose what action you want to do:  ")
-        
+            
         if menu == "1":
             os.system("cls")
-            def act_folder():
+            def act_folder1():
                 print(f"\nWelcome to code compilation of Cris Laurence Pelaez")
                 print(f"Bachelor Of Science In Infomation Technology - 1C")
-            act_folder()
+                print(f"Activity 1")
+                print(f"Activity 2")
+                print(f"Activity 3")
+                print(f"Activity 4")
+                print(f"Activity 5")
+                print(f"Activity 6")
+                print(f"Activity 7")
+                print(f"Activity 8")
+                print(f"Activity 9")
+                print(f"Activity 10")
+                print(f"Activity 12")
+                print(f"Activity 13")
+                print(f"Activity 13")
+                print(f"Activity 14")
+                print(f"Activity 15")
+                print(f"Activity 16")
+                print(f"Activity 17")
+                print(f"Activity 18")
+                print(f"Activity 19")
+                print(f"Activity 20")
+                print(f"Activity 21")
+                print(f"Activity 22")
+                print(f"Activity 23")
+                print(f"Activity 24")
+                print(f"Activity 25")
+                print(f"Type 'back' to back to menu")
+                tuloy = True
+                while tuloy == True:
+                    piliact = input(f"Choose the number of activity you wish to open--->  ")
+                    if piliact =="1":
+                        act_1()
+                            
+
+            act_folder1()
+            continue
+            
         elif menu == "2":
-            cc_folder()
             os.system("cls")
+            def cc_folder2():
+                print(f"\nWelcome to code compilation of Cris Laurence Pelaez")
+                print(f"Bachelor Of Science In Infomation Technology - 1C")
+                print(f"Code Challenge 1")
+                print(f"Code Challenge 2")
+                print(f"Code Challenge 3")
+                print(f"Code Challenge 4")
+                print(f"Code Challenge 5")
+                print(f"Code Challenge 6")
+                print(f"Code Challenge 7")
+                print(f"Code Challenge 8")
+                print(f"Code Challenge 9")
+                print(f"Code Challenge 10")
+                print(f"Code Challenge 11")
+                print(f"Code Challenge 12")
+                print(f"Code Challenge 13")
+                print(f"Code Challenge 14")
+                print(f"Code Challenge 15")
+                print(f"Code Challenge 16")
+                print(f"Type 'back' to back to menu")  
+                tuloy = True
+                while tuloy == True:
+                    pilicc = input(f"Choose the number of activity you wish to open--->  ")
+
+                cc_folder2()
+                pass        
+
         elif menu == "3":
             os.system("cls")
             print(f"\nProgram terminated, Thank you for checking my Program.\n")
             break
         else:
-            print("Invalid Choice, Please try again.")         
+            print("Invalid Choice, Please try again.")    
+            continue     
 body()
-
-def act_folder():
-    print(f"\nWelcome to code compilation of Cris Laurence Pelaez")
-    print(f"Bachelor Of Science In Infomation Technology - 1C")
-
-def cc_folder():
-    print(f"\nWelcome to code compilation of Cris Laurence Pelaez")
-    print(f"Bachelor Of Science In Infomation Technology - 1C")
-
