@@ -1,10 +1,9 @@
 import os
 # Activities
 
-def act_1(a):
+def act_1():
     print("\nThis is my activity 1\n")
     print("Hello World")
-act_1()
 
 def act_2():
     print("\nThis is my activity 2\n")
@@ -681,10 +680,62 @@ def body():
                     piliact = input(f"Choose the number of activity you wish to open--->  ")
                     if piliact =="1":
                         act_1()
-                            
+                    elif piliact =="2":
+                        act_2()
+                    elif piliact =="3":
+                        act_3()
+                    elif piliact =="4":
+                        act_4()
+                    elif piliact =="5":
+                        act_5()
+                    elif piliact =="6":
+                        act_6()
+                    elif piliact =="7":
+                        act_7()
+                    elif piliact =="8":
+                        act_8()
+                    elif piliact =="9":
+                        act_9()
+                    elif piliact =="10":
+                        act_10()
+                    elif piliact =="11":
+                        act_11()
+                    elif piliact =="12":
+                        act_12()
+                    elif piliact =="13":
+                        act_13()
+                    elif piliact =="14":
+                        act_14()
+                    elif piliact =="15":
+                        act_15()
+                    elif piliact =="16":
+                        act_16()
+                    elif piliact =="17":
+                        act_17()
+                    elif piliact =="18":
+                        act_18()
+                    elif piliact =="19":
+                        act_19()
+                    elif piliact =="20":
+                        act_20()
+                    elif piliact =="21":
+                        act_21()
+                    elif piliact =="22":
+                        act_22()
+                    elif piliact =="23":
+                        act_23()
+                    elif piliact =="24":
+                        act_24()
+                    elif piliact =="25":
+                        act_25()
+                    elif piliact.lower() =="back":
+                        return menu
+                    else:
+                        print("Invalid Choice, Please try again.")    
+                        continue 
+                                        
 
             act_folder1()
-            continue
             
         elif menu == "2":
             os.system("cls")
@@ -711,13 +762,54 @@ def body():
                 tuloy = True
                 while tuloy == True:
                     pilicc = input(f"Choose the number of activity you wish to open--->  ")
+                    if pilicc =="1":
+                        cc_1()
+                    elif pilicc =="2":
+                        cc_2()
+                    elif pilicc =="3":
+                        cc_3()
+                    elif pilicc =="4":
+                        cc_4()
+                    elif pilicc =="5":
+                        cc_5()
+                    elif pilicc =="6":
+                        cc_6()
+                    elif pilicc =="7":
+                        cc_7()
+                    elif pilicc =="8":
+                        cc_8()
+                    elif pilicc =="9":
+                        cc_9()
+                    elif pilicc =="10":
+                        cc_10()
+                    elif pilicc =="11":
+                        cc_11()
+                    elif pilicc =="12":
+                        cc_12()
+                    elif pilicc =="13":
+                        cc_13()
+                    elif pilicc =="14":
+                        cc_14()
+                    elif pilicc =="15":
+                        cc_15()
+                    elif pilicc =="16":
+                        cc_16()
+                    elif pilicc.lower() =="back":
+                        return menu
+                    else:
+                        print("Invalid Choice, Please try again.")    
+                        continue 
 
-                cc_folder2()
-                pass        
+
+            cc_folder2()
+                    
+     
 
         elif menu == "3":
             os.system("cls")
-            print(f"\nProgram terminated, Thank you for checking my Program.\n")
+            def exit3():
+                print(f"\nProgram terminated, Thank you for checking my Program.\n")
+            exit3()
             break
         else:
             print("Invalid Choice, Please try again.")    
