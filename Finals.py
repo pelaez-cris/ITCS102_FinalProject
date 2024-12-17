@@ -1,5 +1,7 @@
 import os
 # Activities
+# Activities
+# Activities
 
 def act_1():
     print("\nThis is my activity 1\n")
@@ -273,6 +275,8 @@ def act_25():
     courses.insert(0, "ABELS")
     print(courses)
 
+#Code_Challenge
+#Code_Challenge
 #Code_Challenge
 
 def cc_1():
@@ -632,6 +636,10 @@ def cc_16():
             else:
                 print("Invalid option. Please try again.")
     main()
+
+# Stucture
+# Stucture
+# Stucture
 
 def body():
     while True:
