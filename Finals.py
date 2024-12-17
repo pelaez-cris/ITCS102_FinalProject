@@ -649,88 +649,127 @@ def body():
             def act_folder1():
                 print(f"\nWelcome to code compilation of Cris Laurence Pelaez")
                 print(f"Bachelor Of Science In Infomation Technology - 1C")
-                print(f"Activity 1")
-                print(f"Activity 2")
-                print(f"Activity 3")
-                print(f"Activity 4")
-                print(f"Activity 5")
-                print(f"Activity 6")
-                print(f"Activity 7")
-                print(f"Activity 8")
-                print(f"Activity 9")
-                print(f"Activity 10")
-                print(f"Activity 12")
-                print(f"Activity 13")
-                print(f"Activity 13")
-                print(f"Activity 14")
-                print(f"Activity 15")
-                print(f"Activity 16")
-                print(f"Activity 17")
-                print(f"Activity 18")
-                print(f"Activity 19")
-                print(f"Activity 20")
-                print(f"Activity 21")
-                print(f"Activity 22")
-                print(f"Activity 23")
-                print(f"Activity 24")
-                print(f"Activity 25")
-                print(f"Type 'back' to back to menu")
+                print(f"\nActivity 1  \t\t Activity 14")
+                print(f"Activity 2  \t\t Activity 15")
+                print(f"Activity 3  \t\t Activity 16")
+                print(f"Activity 4  \t\t Activity 17")
+                print(f"Activity 5  \t\t Activity 18")
+                print(f"Activity 6  \t\t Activity 19")
+                print(f"Activity 7  \t\t Activity 20")
+                print(f"Activity 8  \t\t Activity 21")
+                print(f"Activity 9  \t\t Activity 22")
+                print(f"Activity 10 \t\t Activity 23")
+                print(f"Activity 11 \t\t Activity 24")
+                print(f"Activity 12 \t\t Activity 25")
+                print(f"Activity 13 \t\t Type 'back' to back to menu")
                 tuloy = True
                 while tuloy == True:
-                    piliact = input(f"Choose the number of activity you wish to open--->  ")
+                    piliact = input(f"\nChoose the number of activity you wish to open--->  ")
                     if piliact =="1":
+                        os.system("cls")
                         act_1()
+                        return act_folder1()
                     elif piliact =="2":
+                        os.system("cls")
                         act_2()
+                        return act_folder1()
                     elif piliact =="3":
+                        os.system("cls")
                         act_3()
+                        return act_folder1()
                     elif piliact =="4":
+                        os.system("cls")
                         act_4()
+                        return act_folder1()
                     elif piliact =="5":
+                        os.system("cls")
                         act_5()
+                        return act_folder1()
                     elif piliact =="6":
+                        os.system("cls")
                         act_6()
+                        return act_folder1() 
                     elif piliact =="7":
+                        os.system("cls")
                         act_7()
+                        return act_folder1() 
                     elif piliact =="8":
+                        os.system("cls")
                         act_8()
+                        return act_folder1() 
                     elif piliact =="9":
+                        os.system("cls")
                         act_9()
+                        return act_folder1() 
                     elif piliact =="10":
+                        os.system("cls")
                         act_10()
+                        return act_folder1() 
                     elif piliact =="11":
+                        os.system("cls")
                         act_11()
+                        return act_folder1() 
                     elif piliact =="12":
+                        os.system("cls")
                         act_12()
+                        return act_folder1() 
                     elif piliact =="13":
+                        os.system("cls")
                         act_13()
+                        return act_folder1() 
                     elif piliact =="14":
+                        os.system("cls")
                         act_14()
+                        return act_folder1() 
                     elif piliact =="15":
+                        os.system("cls")
                         act_15()
+                        return act_folder1() 
                     elif piliact =="16":
+                        os.system("cls")
                         act_16()
+                        return act_folder1() 
                     elif piliact =="17":
+                        os.system("cls")
                         act_17()
+                        return act_folder1() 
                     elif piliact =="18":
+                        os.system("cls")
                         act_18()
+                        return act_folder1() 
                     elif piliact =="19":
+                        os.system("cls")
                         act_19()
+                        return act_folder1() 
                     elif piliact =="20":
+                        os.system("cls")
                         act_20()
+                        return act_folder1() 
                     elif piliact =="21":
+                        os.system("cls")
                         act_21()
+                        return act_folder1() 
                     elif piliact =="22":
+                        os.system("cls")
                         act_22()
+                        return act_folder1() 
                     elif piliact =="23":
+                        os.system("cls")
                         act_23()
+                        return act_folder1() 
                     elif piliact =="24":
+                        os.system("cls")
                         act_24()
+                        return act_folder1() 
                     elif piliact =="25":
+                        os.system("cls")
                         act_25()
+                        return act_folder1()
                     elif piliact.lower() =="back":
+                        os.system("cls")
                         return menu
                     else:
+                        os.system("cls")
                         print("Invalid Choice, Please try again.")    
                         continue 
                                         
@@ -742,67 +781,93 @@ def body():
             def cc_folder2():
                 print(f"\nWelcome to code compilation of Cris Laurence Pelaez")
                 print(f"Bachelor Of Science In Infomation Technology - 1C")
-                print(f"Code Challenge 1")
-                print(f"Code Challenge 2")
-                print(f"Code Challenge 3")
-                print(f"Code Challenge 4")
-                print(f"Code Challenge 5")
-                print(f"Code Challenge 6")
-                print(f"Code Challenge 7")
-                print(f"Code Challenge 8")
-                print(f"Code Challenge 9")
-                print(f"Code Challenge 10")
-                print(f"Code Challenge 11")
-                print(f"Code Challenge 12")
-                print(f"Code Challenge 13")
-                print(f"Code Challenge 14")
-                print(f"Code Challenge 15")
-                print(f"Code Challenge 16")
-                print(f"Type 'back' to back to menu")  
+                print(f"\nCode Challenge 1\t\tCode Challenge 9")
+                print(f"Code Challenge 2\t\tCode Challenge 10")
+                print(f"Code Challenge 3\t\tCode Challenge 11")
+                print(f"Code Challenge 4\t\tCode Challenge 12")
+                print(f"Code Challenge 5\t\tCode Challenge 13")
+                print(f"Code Challenge 6\t\tCode Challenge 14")
+                print(f"Code Challenge 7\t\tCode Challenge 15")
+                print(f"Code Challenge 8\t\tCode Challenge 16")
+            
+                print(f"       \tType 'back' to back to menu")  
                 tuloy = True
                 while tuloy == True:
-                    pilicc = input(f"Choose the number of activity you wish to open--->  ")
+                    pilicc = input(f"\nChoose the number of Code Challenge you wish to open--->  ")
                     if pilicc =="1":
+                        os.system("cls")
                         cc_1()
+                        return cc_folder2()
                     elif pilicc =="2":
+                        os.system("cls")
                         cc_2()
+                        return cc_folder2()
                     elif pilicc =="3":
+                        os.system("cls")
                         cc_3()
+                        return cc_folder2()
                     elif pilicc =="4":
+                        os.system("cls")
                         cc_4()
+                        return cc_folder2()
                     elif pilicc =="5":
+                        os.system("cls")
                         cc_5()
+                        return cc_folder2()
                     elif pilicc =="6":
+                        os.system("cls")
                         cc_6()
+                        return cc_folder2()
                     elif pilicc =="7":
+                        os.system("cls")
                         cc_7()
+                        return cc_folder2()
                     elif pilicc =="8":
+                        os.system("cls")
                         cc_8()
+                        return cc_folder2()
                     elif pilicc =="9":
+                        os.system("cls")
                         cc_9()
+                        return cc_folder2()
                     elif pilicc =="10":
+                        os.system("cls")
                         cc_10()
+                        return cc_folder2()
                     elif pilicc =="11":
+                        os.system("cls")
                         cc_11()
+                        return cc_folder2()
                     elif pilicc =="12":
+                        os.system("cls")
                         cc_12()
+                        return cc_folder2()
                     elif pilicc =="13":
+                        os.system("cls")
                         cc_13()
+                        return cc_folder2()
                     elif pilicc =="14":
+                        os.system("cls")
                         cc_14()
+                        return cc_folder2()
                     elif pilicc =="15":
+                        os.system("cls")
                         cc_15()
+                        return cc_folder2()
                     elif pilicc =="16":
+                        os.system("cls")
                         cc_16()
+                        return cc_folder2()
                     elif pilicc.lower() =="back":
+                        os.system("cls")
                         return menu
                     else:
+                        os.system("cls")
                         print("Invalid Choice, Please try again.")    
                         continue 
 
 
             cc_folder2()
-                    
      
 
         elif menu == "3":
@@ -814,4 +879,6 @@ def body():
         else:
             print("Invalid Choice, Please try again.")    
             continue     
+
 body()
+
