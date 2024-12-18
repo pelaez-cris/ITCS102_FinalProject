@@ -777,9 +777,9 @@ def body():
                         os.system("cls")
                         return menu
                     else:
-                        os.system("cls")
+                        os.system("cls")           
                         print("Invalid Choice, Please try again.")    
-                        continue 
+                        return act_folder1()
                                         
 
             act_folder1()
@@ -872,7 +872,7 @@ def body():
                     else:
                         os.system("cls")
                         print("Invalid Choice, Please try again.")    
-                        continue 
+                        return cc_folder2()
 
 
             cc_folder2()
@@ -885,7 +885,8 @@ def body():
             exit3()
             break
         else:
+            os.system("cls")
             print("Invalid Choice, Please try again.")    
-            continue     
+            return body()
 body()
 
